@@ -2,6 +2,8 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
+__author__ = 'Darshan Dhanani'
+
 # feature scalling
 dataset = pd.read_csv("./dataset/wine_data.csv")
 X = dataset.iloc[:, 1:-1].values

@@ -3,6 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
 
+__author__ = 'Darshan Dhanani'
+
 dataset = pd.read_csv("../dataset/wine_data.csv")
 
 X = dataset.iloc[:, 1:-1].values

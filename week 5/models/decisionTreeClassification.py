@@ -7,6 +7,8 @@ from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, r
 import seaborn as sns
 import joblib
 
+__author__ = 'Darshan Dhanani'
+
 # Training model on the Training set
 classifier = DecisionTreeClassifier(criterion = 'entropy', random_state = 42)
 classifier.fit(X_train, y_train)

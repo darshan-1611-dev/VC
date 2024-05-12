@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
+__author__ = 'Darshan Dhanani'
+
 # Example confusion matrix (replace with your actual confusion matrix)
 conf_matrix = [[100, 5, 10],
                [3, 150, 7],

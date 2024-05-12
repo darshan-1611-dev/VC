@@ -8,6 +8,8 @@ from sklearn.model_selection import cross_val_score
 import seaborn as sns
 import joblib
 
+__author__ = 'Darshan Dhanani'
+
 def calculate_n_neighbors():
     # Define a range of values for n_neighbors
     neighbors_range = list(range(1, 40))

@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import models.predict_signle_row_data_with_multiple_model as pred
 
+__author__ = 'Darshan Dhanani'
 
 app = Flask(__name__, static_url_path="/static", static_folder='static')
 
